@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact de Froggy</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="images/x-icon"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header role=sectionhead>
+        <h1>La météo de France</h1>
+    </header>
+
+    <nav id="navigation" role=navigation>
+        <a class="txt_nav" href="../index.html">Météo</a>
+        <a class="txt_nav" href="apropos.html">À propos</a>
+        <a class="txt_nav" href="contact.html">Contact</a>
+    </nav>
+
+    <div id="contact" role=form>
+        <form id="form_contact">
+            <label for="sujet"> Choisissez un sujet</label> 
+            <select id="sujet" name="sujet" role=select>
+                <option value hidden disabled selected="selected"> Les sujets</option>
+                <option value="0"> Publicité</option>
+                <option value="1">Médias</option>
+                <option value="3">Actualités</option>
+            </select>  
+            <label for="obj_mail">Introduisez un objet</label><input type="text" name="Courriel" id="obj_mail" placeholder="Mettre votre objet">
+            <label for="email">Introduisez votre email</label><input type="text" name="Mail" id="email" placeholder="Votre Email">
+            <label for="le_message">Votre message</label><textarea rows="14" name="Message" id="le_message" placeholder="Rédigez ici"></textarea>
+            <input type="submit" name="envoi_contact" id="bouton_form">
+        </form>            
+    </div>
+
+    <footer role=section>
+        <div> Mentions légales</div>
+        <div id="promo">©2021 MMI</div>
+    </footer>
+
+</body>
+</html>

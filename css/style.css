@@ -1,0 +1,258 @@
+body{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/fond.jpg");
+}
+
+header{
+    background-color: #7093db;
+    padding: 2%;
+    color: white;
+    border: 3px solid white;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 2%;
+    border: 3px solid white;
+    background-color: #7093db;
+    color: white;
+    padding: 2%;
+}
+
+.txt_nav{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.txt_nav:hover{
+    color: #0751e7;
+}
+
+#carte{
+    margin-top: 20px;
+}
+
+#france{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index:1;
+}
+
+#promo{
+    text-align: right;
+}
+
+#apropos{
+    font-family: Helvetica, sans-serif;
+    color:  whitesmoke;
+    background-color: cornflowerblue;
+    padding:2%;
+    margin-bottom:  20%;
+}
+
+.lienicon:hover{
+    color:  darkgreen;
+}
+
+#apropos h3 {
+    border-bottom: 2px solid powderblue;
+    color:  lightgrey;
+    padding-top: 30px;
+}
+
+#textapp{
+    margin:  5px;
+    padding-left:  10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+
+footer{
+    margin-top: 10%;
+    border-top: 1px solid black;
+    color:white;
+}
+
+select{
+    text-rendering: auto;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 0;
+    padding-left: 5px;
+}
+
+#contact{
+    background-color: rgb(196, 228, 255);
+    padding: 3%;
+    margin-top: 4%;
+}
+
+.objet {
+    width: 200px; 
+}
+
+#form_contact{
+    display: grid;
+    margin: 1%;
+}
+
+#form_contact label{
+    line-height: 2;
+}
+
+#form_contact input{
+    padding: 2%;
+}
+
+#bouton_form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+option{
+    padding: 1%;
+}
+
+#sujet{
+    background-color: lightblue;
+}
+
+.objet {
+    width: 200px;
+}
+
+.liste_ville{
+    margin-right: 77%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ville{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cadre_div{
+    background-color: whitesmoke;
+    padding: 1%;
+    z-index: 4;
+    position: absolute;
+    border-radius: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Nancy{
+    position: relative;
+    bottom: 357px;
+    left: 58.5%;
+}
+
+#Metz{
+    position: relative;
+    bottom: 430px;
+    left: 59%;
+}
+
+#Strasbourg{
+    position: relative;
+    bottom: 440px;
+    left: 62%;
+}
+
+#Paris{
+    position: relative;
+    bottom: 395px;
+    left: 51%;
+}
+
+#Marseille{
+    position: relative;
+    bottom: 230px;
+    left: 57%;
+}
+
+#Lyon{
+    position: relative;
+    bottom: 332px;
+    left: 55%;
+}
+
+.temp_min{
+    color: blue;
+}
+.temp_max{
+    color: red;
+}
+.ville:hover{
+    color: #0751e7;
+}
+
+.grid_temp{
+    display: grid;
+    grid-template-columns: 43% 57%;
+    column-gap: 6.5%;
+}
+
+.grid_temp div, .grid_img div{
+    display: grid;
+}
+
+.grille_info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.grid_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.haut{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2%;
+}
+
+.bas{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 6%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 2%;
+}
+
+.jour1, .jour2, .jour3, .jour4, .jour5{
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
